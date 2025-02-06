@@ -357,10 +357,10 @@ bool ApiSystem::ping()
 	if (!executeScript("timeout 1 ping -c 1 -t 255 google.com"))
 	{
 		// ping Google DNS
-		if (!executeScript("timeout 1 ping -c 1 -t 255 8.8.8.8"))
+		if (!executeScript("timeout 1 ping -c 1 -t 255 dns.google"))
 		{
-			// ping Google secondary DNS & give 2 seconds, return this one's status
-			return executeScript("timeout 2 ping -c 1 -t 255 8.8.4.4");
+			// ping Cloudflare DNS & give 2 seconds, return this one's status
+			return executeScript("timeout 2 ping -c 1 -t 255 one.one.one.one");
 		}
 	}
 
@@ -479,11 +479,11 @@ bool ApiSystem::disableWifi()
 	return executeScript("batocera-wifi disable");
 }
 
-std::string ApiSystem::getIpAdress() 
+std::string ApiSystem::getIpAddress()
 {
-	LOG(LogDebug) << "ApiSystem::getIpAdress";
+	LOG(LogDebug) << "ApiSystem::getIpAddress";
 	
-	std::string result = Utils::Platform::queryIPAdress(); // platform.h
+	std::string result = Utils::Platform::queryIPAddress(); // platform.h
 	if (result.empty())
 		return "NOT CONNECTED";
 
@@ -1422,7 +1422,8 @@ bool ApiSystem::getLED(int& red, int& green, int& blue)
         std::getline(ss, token);
         blue = std::stoi(token);
 
-		LOG(LogInfo) << "ApiSystem::getLED > LED colours are:" << red << " " << green << " " << blue;
+        executeScript("batocera-led-handheld block_color_changes"); // temporarily prevent changes from external daemon
+        LOG(LogInfo) << "ApiSystem::getLED > LED colours are:" << red << " " << green << " " << blue;
 
         return true;
     }

@@ -549,6 +549,27 @@ msgstr ""
 msgid "CUSTOM RELAY SERVER"
 msgstr ""
 
+msgid "PUBLICLY ANNOUNCE GAME"
+msgstr "PUBLICLY ANNOUNCE GAME"
+
+msgid "PLAYER PASSWORD"
+msgstr "PLAYER PASSWORD"
+
+msgid "VIEWER PASSWORD"
+msgstr "VIEWER PASSWORD"
+
+msgid "SHOW NETPLAY OPTIONS WHEN LAUNCHING GAME"
+msgstr ""
+
+msgid "Allows choice of online, offline, or joining another game."
+msgstr ""
+
+msgid "SHOW RELAY SERVER GAMES ONLY"
+msgstr ""
+
+msgid "Relay server games have a higher chance of successful entry."
+msgstr ""
+
 msgid "SHOW UNAVAILABLE GAMES"
 msgstr "SHOW UNAVAILABLE GAMES"
 
@@ -1257,6 +1278,9 @@ msgstr "CAROUSEL TRANSITIONS"
 
 msgid "QUICK SYSTEM SELECT"
 msgstr "QUICK SYSTEM SELECT"
+
+msgid "QUICK JUMP LETTER"
+msgstr ""
 
 msgid "ON-SCREEN KEYBOARD"
 msgstr "ON-SCREEN KEYBOARD"
@@ -2163,15 +2187,6 @@ msgstr "START GAME"
 msgid "HOST A NETPLAY GAME"
 msgstr "HOST A NETPLAY GAME"
 
-msgid "PUBLICLY ANNOUNCE GAME"
-msgstr "PUBLICLY ANNOUNCE GAME"
-
-msgid "PLAYER PASSWORD"
-msgstr "PLAYER PASSWORD"
-
-msgid "VIEWER PASSWORD"
-msgstr "VIEWER PASSWORD"
-
 msgid "FIND SIMILAR GAMES..."
 msgstr "FIND SIMILAR GAMES..."
 
@@ -2536,6 +2551,9 @@ msgstr "CONNECT TO NETPLAY"
 msgid "Select a game lobby to join"
 msgstr "Select a game lobby to join"
 
+msgid "Select a game lobby to create or join"
+msgstr ""
+
 msgid "FAILED"
 msgstr "FAILED"
 
@@ -2550,6 +2568,15 @@ msgstr "SAME ROM"
 
 msgid "UNAVAILABLE CORE"
 msgstr "UNAVAILABLE CORE"
+
+msgid "PLAY ONLINE AS HOST"
+msgstr ""
+
+msgid "PLAY OFFLINE"
+msgstr ""
+
+msgid "JOIN EXISTING GAME"
+msgstr ""
 
 msgid "AVAILABLE GAMES"
 msgstr "AVAILABLE GAMES"

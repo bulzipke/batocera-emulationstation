@@ -528,7 +528,7 @@ msgid "PORT"
 msgstr "PORT"
 
 msgid "USE RELAY SERVER"
-msgstr "UŻYJ SERWERA PRZEKAZUJĄCEGO"
+msgstr "UŻYWAĆ SERWERA POŚREDNICZĄCEGO"
 
 msgid "NONE"
 msgstr "BRAK"
@@ -549,7 +549,28 @@ msgid "CUSTOM"
 msgstr "WŁASNY"
 
 msgid "CUSTOM RELAY SERVER"
-msgstr "WŁASNY SERWER PRZEKAZUJĄCY"
+msgstr "WŁASNY SERWER POŚREDNICZĄCY"
+
+msgid "PUBLICLY ANNOUNCE GAME"
+msgstr "OGŁOŚ GRĘ PUBLICZNIE"
+
+msgid "PLAYER PASSWORD"
+msgstr "HASŁO GRACZA"
+
+msgid "VIEWER PASSWORD"
+msgstr "HASŁO WIDZA"
+
+msgid "SHOW NETPLAY OPTIONS WHEN LAUNCHING GAME"
+msgstr "POKAŻ OPCJE GRY SIECIOWEJ PRZY URUCHAMIANIU GRY"
+
+msgid "Allows choice of online, offline, or joining another game."
+msgstr "Umożliwia wybór trybu online, offline lub dołączenie do innej gry."
+
+msgid "SHOW RELAY SERVER GAMES ONLY"
+msgstr "POKAŻ TYLKO GRY Z SERWEREM POŚREDNICZĄCYM"
+
+msgid "Relay server games have a higher chance of successful entry."
+msgstr "Gry z serwerem pośredniczącym mają większą szansę na udane wejście."
 
 msgid "SHOW UNAVAILABLE GAMES"
 msgstr "POKAŻ NIEDOSTĘPNE GRY"
@@ -1268,6 +1289,9 @@ msgstr "PRZEJŚCIA KARUZELI"
 msgid "QUICK SYSTEM SELECT"
 msgstr "SZYBKI WYBÓR SYSTEMU"
 
+msgid "QUICK JUMP LETTER"
+msgstr "LITERA SZYBKIEGO WYBORU"
+
 msgid "ON-SCREEN KEYBOARD"
 msgstr "KLAWIATURA EKRANOWA"
 
@@ -1858,10 +1882,10 @@ msgid "SHOW WHEEL ICON"
 msgstr "POKAŻ IKONĘ KIEROWNICY"
 
 msgid "SHOW TRACKBALL ICON"
-msgstr ""
+msgstr "POKAŻ IKONĘ TRACKBALL'A"
 
 msgid "SHOW SPINNER ICON"
-msgstr ""
+msgstr "POKAŻ IKONĘ SPINNER'A"
 
 msgid "SHOW FILENAMES INSTEAD"
 msgstr "POKAŻ NAZWY PLIKÓW"
@@ -2183,15 +2207,6 @@ msgstr "ROZPOCZNIJ GRĘ"
 
 msgid "HOST A NETPLAY GAME"
 msgstr "HOSTUJ GRĘ NETPLAY"
-
-msgid "PUBLICLY ANNOUNCE GAME"
-msgstr "OGŁOŚ GRĘ PUBLICZNIE"
-
-msgid "PLAYER PASSWORD"
-msgstr "HASŁO GRACZA"
-
-msgid "VIEWER PASSWORD"
-msgstr "HASŁO WIDZA"
 
 msgid "FIND SIMILAR GAMES..."
 msgstr "ZNAJDŹ PODOBNE GRY..."
@@ -2557,6 +2572,9 @@ msgstr "POŁĄCZ Z NETPLAY"
 msgid "Select a game lobby to join"
 msgstr "Wybierz lobby gry do której chcesz dołączyć"
 
+msgid "Select a game lobby to create or join"
+msgstr "Wybierz lobby gry aby stworzyć lub dołączyć"
+
 msgid "FAILED"
 msgstr "NIE POWIODŁO SIĘ"
 
@@ -2571,6 +2589,15 @@ msgstr "TEN SAM ROM"
 
 msgid "UNAVAILABLE CORE"
 msgstr "NIEDOSTĘPNE JĄDRO EMULATORA"
+
+msgid "PLAY ONLINE AS HOST"
+msgstr "GRAJ ONLINE JAKO HOST"
+
+msgid "PLAY OFFLINE"
+msgstr "GRAJ OFFLINE"
+
+msgid "JOIN EXISTING GAME"
+msgstr "DOŁĄCZ DO ISTNIEJĄCEJ GRY"
 
 msgid "AVAILABLE GAMES"
 msgstr "DOSTĘPNE GRY"
@@ -3052,10 +3079,10 @@ msgid "STEERING WHEEL"
 msgstr "KIEROWNICA"
 
 msgid "TRACKBALL"
-msgstr ""
+msgstr "TRACKBALL"
 
 msgid "SPINNER"
-msgstr ""
+msgstr "SPINNER"
 
 msgid "HAVING MEDIAS"
 msgstr "POSIADA MEDIA"
@@ -3139,10 +3166,10 @@ msgid "wheel games"
 msgstr "gry na kierownicę"
 
 msgid "trackball games"
-msgstr ""
+msgstr "gry z trackball'em"
 
 msgid "spinner games"
-msgstr ""
+msgstr "gry na spinner"
 
 msgid "collections"
 msgstr "kolekcje"

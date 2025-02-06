@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-09-04 12:09+0300\n"
+"PO-Revision-Date: 2024-11-25 23:59+0200\n"
 "Last-Translator: Mihai Vasiliu <mihai.vasiliu.93@gmail.com>\n"
 "Language-Team: \n"
 "Language: ro_RO\n"
@@ -551,6 +551,29 @@ msgstr "PERSONALIZAT"
 msgid "CUSTOM RELAY SERVER"
 msgstr "SERVER RETRANSLAȚIE PERSONALIZAT"
 
+msgid "PUBLICLY ANNOUNCE GAME"
+msgstr "ANUNȚĂ PUBLIC JOCUL"
+
+msgid "PLAYER PASSWORD"
+msgstr "PAROLĂ JUCĂTORI"
+
+msgid "VIEWER PASSWORD"
+msgstr "PAROLĂ SPECTATORI"
+
+msgid "SHOW NETPLAY OPTIONS WHEN LAUNCHING GAME"
+msgstr "ARATĂ OPȚIUNILE NETPLAY LA LANSAREA JOCULUI"
+
+msgid "Allows choice of online, offline, or joining another game."
+msgstr "Permite alegerea online, offline sau alăturarea la un alt joc."
+
+msgid "SHOW RELAY SERVER GAMES ONLY"
+msgstr "ARATĂ DOAR JOCURILE CU SERVER DE RETRANSLAȚIE"
+
+msgid "Relay server games have a higher chance of successful entry."
+msgstr ""
+"Jocurile cu server de retranslație au o șansă mai mare de a permite "
+"alăturarea cu succes."
+
 msgid "SHOW UNAVAILABLE GAMES"
 msgstr "AFIȘEAZĂ JOCURILE INDISPONIBILE"
 
@@ -839,13 +862,13 @@ msgid "fade"
 msgstr "atenuează"
 
 msgid "fast fade"
-msgstr ""
+msgstr "atenuează rapid"
 
 msgid "slide"
 msgstr "glisează"
 
 msgid "fast slide"
-msgstr ""
+msgstr "glisează rapid"
 
 msgid "fade & slide"
 msgstr "atenuează și glisează"
@@ -1195,7 +1218,7 @@ msgid "Reset customized file extensions filters to default."
 msgstr "Resetează extensile de fișiere personalizate la implicite."
 
 msgid "REDETECT ALL GAMES' LANG/REGION"
-msgstr "DETECTEAZĂ LIMBA/REGIUNEA TUTUROR JOCURILOR"
+msgstr "REDETECTEAZĂ LIMBA/REGIUNEA JOCURILOR"
 
 msgid "FIND ALL GAMES WITH NETPLAY/ACHIEVEMENTS"
 msgstr "GĂSEȘTE TOATE JOCURILE CU NETPLAY/REALIZĂRI"
@@ -1271,6 +1294,9 @@ msgstr "TRANZIȚII CARUSEL"
 
 msgid "QUICK SYSTEM SELECT"
 msgstr "SELECȚIA RAPIDĂ A SISTEMULUI"
+
+msgid "QUICK JUMP LETTER"
+msgstr "SALT RAPID LITERĂ"
 
 msgid "ON-SCREEN KEYBOARD"
 msgstr "TASTATURĂ PE ECRAN"
@@ -1863,10 +1889,10 @@ msgid "SHOW WHEEL ICON"
 msgstr "ARATĂ PICTOGRAMĂ VOLAN"
 
 msgid "SHOW TRACKBALL ICON"
-msgstr ""
+msgstr "ARATĂ PICROGRAMĂ TRACKBALL"
 
 msgid "SHOW SPINNER ICON"
-msgstr ""
+msgstr "ARATĂ PICROGRAMĂ SPINNER"
 
 msgid "SHOW FILENAMES INSTEAD"
 msgstr "ARATĂ NUMELE DE FIȘIERE ÎN LOC"
@@ -2188,15 +2214,6 @@ msgstr "ÎNCEPE JOCUL"
 
 msgid "HOST A NETPLAY GAME"
 msgstr "GĂZDUIEȘTE UN JOC NETPLAY"
-
-msgid "PUBLICLY ANNOUNCE GAME"
-msgstr "ANUNȚĂ PUBLIC JOCUL"
-
-msgid "PLAYER PASSWORD"
-msgstr "PAROLĂ JUCĂTORI"
-
-msgid "VIEWER PASSWORD"
-msgstr "PAROLĂ SPECTATORI"
 
 msgid "FIND SIMILAR GAMES..."
 msgstr "GĂSEȘTE JOCURI SIMILARE..."
@@ -2562,6 +2579,9 @@ msgstr "CONECTEAZĂ-TE LA NETPLAY"
 msgid "Select a game lobby to join"
 msgstr "Alege o sală pentru te alătura"
 
+msgid "Select a game lobby to create or join"
+msgstr "Alege o sală pentru a crea sau a te alătura"
+
 msgid "FAILED"
 msgstr "EȘUAT"
 
@@ -2576,6 +2596,15 @@ msgstr "ACELAȘI ROM"
 
 msgid "UNAVAILABLE CORE"
 msgstr "NUCLEU INDISPONIBIL"
+
+msgid "PLAY ONLINE AS HOST"
+msgstr "JOACĂ ONLINE CA GAZDĂ"
+
+msgid "PLAY OFFLINE"
+msgstr "JOACĂ OFFLINE"
+
+msgid "JOIN EXISTING GAME"
+msgstr "ALĂTURĂ-TE LA UN JOC EXISTENT"
 
 msgid "AVAILABLE GAMES"
 msgstr "JOCURI DISPONIBILE"
@@ -2691,7 +2720,7 @@ msgid "WHITE"
 msgstr "ALBĂ"
 
 msgid "BORDER RATIO"
-msgstr ""
+msgstr "RAPORT CHENAR"
 
 msgid "CAMERA CONTRAST"
 msgstr "CONTRAST CAMERĂ"
@@ -3060,10 +3089,10 @@ msgid "STEERING WHEEL"
 msgstr "VOLAN"
 
 msgid "TRACKBALL"
-msgstr ""
+msgstr "TRACKBALL"
 
 msgid "SPINNER"
-msgstr ""
+msgstr "SPINNER"
 
 msgid "HAVING MEDIAS"
 msgstr "CU FIȘIERE MEDIA"
@@ -3147,10 +3176,10 @@ msgid "wheel games"
 msgstr "jocuri cu volanul"
 
 msgid "trackball games"
-msgstr ""
+msgstr "jocuri cu trackball"
 
 msgid "spinner games"
-msgstr ""
+msgstr "jocuri cu spinner"
 
 msgid "collections"
 msgstr "colecții"

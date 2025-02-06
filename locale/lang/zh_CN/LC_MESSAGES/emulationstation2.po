@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: batocera-es v34beta(2022/04/06)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-10-14 10:07+0800\n"
+"PO-Revision-Date: 2024-11-01 01:11+0800\n"
 "Last-Translator: wanger\n"
 "Language-Team: mikakunin,王二,monyxie\n"
 "Language: zh_CN\n"
@@ -547,6 +547,27 @@ msgstr "定制"
 
 msgid "CUSTOM RELAY SERVER"
 msgstr "定制中继服务器"
+
+msgid "PUBLICLY ANNOUNCE GAME"
+msgstr "公开的游戏"
+
+msgid "PLAYER PASSWORD"
+msgstr "玩家口令"
+
+msgid "VIEWER PASSWORD"
+msgstr "观众口令"
+
+msgid "SHOW NETPLAY OPTIONS WHEN LAUNCHING GAME"
+msgstr "启动游戏时显示网络游戏选项"
+
+msgid "Allows choice of online, offline, or joining another game."
+msgstr "允许选择在线、离线或加入其他游戏."
+
+msgid "SHOW RELAY SERVER GAMES ONLY"
+msgstr "仅显示中继服务器游戏"
+
+msgid "Relay server games have a higher chance of successful entry."
+msgstr "中继服务器游戏有更高机会成功进入."
 
 msgid "SHOW UNAVAILABLE GAMES"
 msgstr "显示不可用的游戏"
@@ -1250,6 +1271,9 @@ msgstr "循环画面转场"
 msgid "QUICK SYSTEM SELECT"
 msgstr "快速系统选择"
 
+msgid "QUICK JUMP LETTER"
+msgstr "快速跳转字母"
+
 msgid "ON-SCREEN KEYBOARD"
 msgstr "虚拟键盘"
 
@@ -1584,7 +1608,7 @@ msgid "Current setting"
 msgstr "当前设置"
 
 msgid "UPDATE GAMELISTS"
-msgstr "更新游戏列表（放入ROM或者安装程序后操作）"
+msgstr "更新游戏列表"
 
 msgid "ACCOUNTS"
 msgstr "账户"
@@ -1822,10 +1846,10 @@ msgid "SHOW WHEEL ICON"
 msgstr "显示方向盘图标"
 
 msgid "SHOW TRACKBALL ICON"
-msgstr ""
+msgstr "显示轨迹球图标"
 
 msgid "SHOW SPINNER ICON"
-msgstr ""
+msgstr "显示微调器图标"
 
 msgid "SHOW FILENAMES INSTEAD"
 msgstr "在列表中显示文件名"
@@ -2145,15 +2169,6 @@ msgstr "开始游戏"
 
 msgid "HOST A NETPLAY GAME"
 msgstr "建立联网主机"
-
-msgid "PUBLICLY ANNOUNCE GAME"
-msgstr "公开的游戏"
-
-msgid "PLAYER PASSWORD"
-msgstr "玩家口令"
-
-msgid "VIEWER PASSWORD"
-msgstr "观众口令"
 
 msgid "FIND SIMILAR GAMES..."
 msgstr "寻找类似游戏..."
@@ -2519,6 +2534,9 @@ msgstr "进行联网游戏"
 msgid "Select a game lobby to join"
 msgstr "选择要加入的游戏大厅"
 
+msgid "Select a game lobby to create or join"
+msgstr "选择要创建或加入的游戏大厅"
+
 msgid "FAILED"
 msgstr "失败"
 
@@ -2533,6 +2551,15 @@ msgstr "相同的ROM"
 
 msgid "UNAVAILABLE CORE"
 msgstr "核心不可用"
+
+msgid "PLAY ONLINE AS HOST"
+msgstr "以主机身份在线玩游戏"
+
+msgid "PLAY OFFLINE"
+msgstr "离线游玩"
+
+msgid "JOIN EXISTING GAME"
+msgstr "加入现有游戏"
 
 msgid "AVAILABLE GAMES"
 msgstr "可用的游戏"
@@ -3004,10 +3031,10 @@ msgid "STEERING WHEEL"
 msgstr "方向盘"
 
 msgid "TRACKBALL"
-msgstr ""
+msgstr "轨迹球"
 
 msgid "SPINNER"
-msgstr ""
+msgstr "微调器"
 
 msgid "HAVING MEDIAS"
 msgstr "拥有媒体"
@@ -3091,10 +3118,10 @@ msgid "wheel games"
 msgstr "方向盘游戏"
 
 msgid "trackball games"
-msgstr ""
+msgstr "轨迹球游戏"
 
 msgid "spinner games"
-msgstr ""
+msgstr "微调游戏"
 
 msgid "collections"
 msgstr "合辑"

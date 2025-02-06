@@ -30,6 +30,7 @@
 #include <SDL_timer.h>
 #include "TextToSpeech.h"
 #include "VolumeControl.h"
+#include "guis/GuiNetPlay.h"
 
 ViewController* ViewController::sInstance = nullptr;
 
@@ -549,6 +550,16 @@ void ViewController::launch(FileData* game, LaunchGameOptions options, Vector3f 
 				mWindow->pushGui(imgViewer);
 			}
 		}
+		return;
+	}
+
+	if (!SystemConf::getInstance()->getBool("global.netplay") || ApiSystem::getInstance()->getIpAddress() == "NOT CONNECTED" || !game->isNetplaySupported())
+	{
+		options.netPlayMode = DISABLED;
+	}
+	else if (options.netPlayMode == DISABLED && Settings::getInstance()->getBool("NetPlayShowOptionsWhenLaunchingGames"))
+	{
+		mWindow->pushGui(new GuiNetPlay(mWindow, game));
 		return;
 	}
 	

@@ -549,6 +549,29 @@ msgstr "PERSONALIZADO"
 msgid "CUSTOM RELAY SERVER"
 msgstr "SERVIDOR DE RELÉ PERSONALIZADO"
 
+msgid "PUBLICLY ANNOUNCE GAME"
+msgstr "ANUNCIAR PUBLICAMENTE O JOGO"
+
+msgid "PLAYER PASSWORD"
+msgstr "PASSWORD DO JOGADOR"
+
+msgid "VIEWER PASSWORD"
+msgstr "PASSWORD DO ESPECTADOR"
+
+msgid "SHOW NETPLAY OPTIONS WHEN LAUNCHING GAME"
+msgstr "MOSTRAR OPÇÕES DE NETPLAY AO INICIAR O JOGO"
+
+msgid "Allows choice of online, offline, or joining another game."
+msgstr "Permite escolher entre online, offline ou aderir a outro jogo."
+
+msgid "SHOW RELAY SERVER GAMES ONLY"
+msgstr "MOSTRAR APENAS JOGOS DO SERVIDOR RELAY"
+
+msgid "Relay server games have a higher chance of successful entry."
+msgstr ""
+"Os jogos de servidor relay têm uma maior probabilidade de entrada bem-"
+"sucedida."
+
 msgid "SHOW UNAVAILABLE GAMES"
 msgstr "MOSTRAR JOGOS INDISPONÍVEIS"
 
@@ -1268,6 +1291,9 @@ msgstr "ANIMAÇÃO DE TRANSIÇÃO CARROSSEL"
 msgid "QUICK SYSTEM SELECT"
 msgstr "MENU DE SELEÇÃO RÁPIDA DO SISTEMA"
 
+msgid "QUICK JUMP LETTER"
+msgstr "SALTO RÁPIDO DE LETRAS"
+
 msgid "ON-SCREEN KEYBOARD"
 msgstr "TECLADO NO ECRÃ"
 
@@ -1855,10 +1881,10 @@ msgid "SHOW WHEEL ICON"
 msgstr "MOSTRAR ÍCONE DA RODA"
 
 msgid "SHOW TRACKBALL ICON"
-msgstr ""
+msgstr "MOSTRAR ÍCONE DO TRACKBALL"
 
 msgid "SHOW SPINNER ICON"
-msgstr ""
+msgstr "MOSTRAR ÍCONE GIRATÓRIO"
 
 msgid "SHOW FILENAMES INSTEAD"
 msgstr "MOSTRAR NOMES DE FICHEIROS"
@@ -2180,15 +2206,6 @@ msgstr "INICIAR JOGO"
 
 msgid "HOST A NETPLAY GAME"
 msgstr "ORGANIZAR JOGO EM REDE"
-
-msgid "PUBLICLY ANNOUNCE GAME"
-msgstr "ANUNCIAR PUBLICAMENTE O JOGO"
-
-msgid "PLAYER PASSWORD"
-msgstr "PASSWORD DO JOGADOR"
-
-msgid "VIEWER PASSWORD"
-msgstr "PASSWORD DO ESPECTADOR"
 
 msgid "FIND SIMILAR GAMES..."
 msgstr "JOGOS SEMELHANTES..."
@@ -2555,6 +2572,9 @@ msgstr "CONECTAR-SE AOS JOGOS EM REDE"
 msgid "Select a game lobby to join"
 msgstr "Selecione uma sala de jogo para se juntar"
 
+msgid "Select a game lobby to create or join"
+msgstr "Selecione um lobby de jogo para criar ou participar"
+
 msgid "FAILED"
 msgstr "FALHOU"
 
@@ -2569,6 +2589,15 @@ msgstr "MESMA ROM"
 
 msgid "UNAVAILABLE CORE"
 msgstr "CORE INDISPONÍVEL"
+
+msgid "PLAY ONLINE AS HOST"
+msgstr "JOGAR ONLINE COMO HOST"
+
+msgid "PLAY OFFLINE"
+msgstr "JOGAR OFFLINE"
+
+msgid "JOIN EXISTING GAME"
+msgstr "JUNTAR-SE AO JOGO EXISTENTE"
 
 msgid "AVAILABLE GAMES"
 msgstr "JOGOS DISPONÍVEIS"
@@ -3046,10 +3075,10 @@ msgid "STEERING WHEEL"
 msgstr "VOLANTE"
 
 msgid "TRACKBALL"
-msgstr ""
+msgstr "TRACKBALL"
 
 msgid "SPINNER"
-msgstr ""
+msgstr "GIRATÓRIO"
 
 msgid "HAVING MEDIAS"
 msgstr "TER MEDIA"
@@ -3133,10 +3162,10 @@ msgid "wheel games"
 msgstr "jogos de volante"
 
 msgid "trackball games"
-msgstr ""
+msgstr "jogos de trackball"
 
 msgid "spinner games"
-msgstr ""
+msgstr "jogos giratórios"
 
 msgid "collections"
 msgstr "coleções"
